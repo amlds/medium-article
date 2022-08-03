@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+  color: #B8B8B8;
+  background-color: #161616;
+}
+
+h1{
+  font-size: 24px;
+  color: #FAFAFA;
+  margin: 0;
+}
+
+h2{
+  font-size: 20px;
+  color : #FAFAFA;
+  margin: 0;
+}
+
+a{
+  font-size: 16px;
+  text-decoration:none;
+  color: #B8B8B8;
+}
+
+a:hover{
+  color: #FAFAFA;
+  transition: 0.4s;
+}
+
+p{
+  font-size: 16px;
+}
+
+.header{
+  background-image: url("https://source.unsplash.com/random/1600x900");
+  padding: 20vh 20%;
+  display: flex;
+  justify-content: center;
+  -webkit-text-stroke: 0.1px #161616;
+}
+
+.header h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+.header p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.article{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 10%;
+}
+
+.animation{
+  padding: 0rem 2rem 0rem 2rem;
+  font-size: 30px;
+  margin:0px;
+  padding: 0;
+  
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1 ) 0%, rgb(228, 228, 228) 3px, transparent 0.01%) no-repeat center/ 0 3px;
+  transition: background-size .5s;
+}
+
+.animation:hover {
+  background-size: 100% 3px ;
+  cursor: pointer;
+}
